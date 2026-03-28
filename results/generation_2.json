@@ -1,0 +1,229 @@
+{
+  "generation": 2,
+  "agents": [
+    {
+      "genome": {
+        "agent_id": "ada2de9e",
+        "planning_depth": 4.422,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.7334,
+        "exploration_rate": 0.6441,
+        "verification_level": 0.8367,
+        "risk_bias": 0.7315,
+        "tool_usage_bias": 0.5458,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": []
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "4c1c30b8",
+        "planning_depth": 2.265,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.4221,
+        "exploration_rate": 0.1041,
+        "verification_level": 0.9139,
+        "risk_bias": 0.3891,
+        "tool_usage_bias": 0.1208,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": []
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "f3a551f2",
+        "planning_depth": 2.576,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.5924,
+        "exploration_rate": 0.0503,
+        "verification_level": 0.6283,
+        "risk_bias": 0.6847,
+        "tool_usage_bias": 0.9088,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": []
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "17476ccd",
+        "planning_depth": 3.782,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.3948,
+        "exploration_rate": 0.7432,
+        "verification_level": 0.5621,
+        "risk_bias": 0.8615,
+        "tool_usage_bias": 0.7145,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": []
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "acd71bbd",
+        "planning_depth": 3.782,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.4221,
+        "exploration_rate": 0.1041,
+        "verification_level": 0.5621,
+        "risk_bias": 0.8615,
+        "tool_usage_bias": 0.7145,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": [
+          "17476ccd",
+          "4c1c30b8"
+        ]
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "db12cce3",
+        "planning_depth": 2.265,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.4221,
+        "exploration_rate": 0.7432,
+        "verification_level": 0.9139,
+        "risk_bias": 0.3891,
+        "tool_usage_bias": 0.1208,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": [
+          "4c1c30b8",
+          "17476ccd"
+        ]
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "adbbfbed",
+        "planning_depth": 2.576,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.5924,
+        "exploration_rate": 0.6441,
+        "verification_level": 0.6283,
+        "risk_bias": 0.6847,
+        "tool_usage_bias": 0.5458,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": [
+          "ada2de9e",
+          "f3a551f2"
+        ]
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "cbd4af4f",
+        "planning_depth": 4.422,
+        "reasoning_steps": 7,
+        "cooperation_bias": 1.0,
+        "exploration_rate": 0.5705,
+        "verification_level": 0.8367,
+        "risk_bias": 0.7315,
+        "tool_usage_bias": 0.5458,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": [
+          "ada2de9e"
+        ]
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "d3be84ee",
+        "planning_depth": 2.548,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.5924,
+        "exploration_rate": 0.0,
+        "verification_level": 0.6283,
+        "risk_bias": 0.5277,
+        "tool_usage_bias": 0.9088,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": [
+          "f3a551f2"
+        ]
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "43ad80f4",
+        "planning_depth": 3.051,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.2674,
+        "exploration_rate": 0.1041,
+        "verification_level": 0.9139,
+        "risk_bias": 0.3891,
+        "tool_usage_bias": 0.1208,
+        "generation": 2,
+        "fitness": 0.3749,
+        "parent_ids": [
+          "4c1c30b8"
+        ]
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8745
+    },
+    {
+      "genome": {
+        "agent_id": "53c729f4",
+        "planning_depth": 2.265,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.5924,
+        "exploration_rate": 0.1041,
+        "verification_level": 0.9139,
+        "risk_bias": 0.3891,
+        "tool_usage_bias": 0.9088,
+        "generation": 2,
+        "fitness": 0.3606,
+        "parent_ids": [
+          "4c1c30b8",
+          "f3a551f2"
+        ]
+      },
+      "mean_accuracy": 0.3333,
+      "mean_efficiency": 0.7792
+    },
+    {
+      "genome": {
+        "agent_id": "9bf665c8",
+        "planning_depth": 2.265,
+        "reasoning_steps": 7,
+        "cooperation_bias": 0.4221,
+        "exploration_rate": 0.1041,
+        "verification_level": 0.9139,
+        "risk_bias": 0.3891,
+        "tool_usage_bias": 0.1208,
+        "generation": 2,
+        "fitness": 0.0,
+        "parent_ids": [
+          "4c1c30b8"
+        ]
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.0
+    }
+  ]
+}

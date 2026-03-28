@@ -1,0 +1,13 @@
+{
+  "agent_id": "ada2de9e",
+  "planning_depth": 4.422,
+  "reasoning_steps": 7,
+  "cooperation_bias": 0.7334,
+  "exploration_rate": 0.6441,
+  "verification_level": 0.8367,
+  "risk_bias": 0.7315,
+  "tool_usage_bias": 0.5458,
+  "generation": 1,
+  "fitness": 0.3749,
+  "parent_ids": []
+}

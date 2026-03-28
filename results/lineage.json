@@ -1,0 +1,258 @@
+[
+  {
+    "generation": 1,
+    "agent_id": "ada2de9e",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "4c1c30b8",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "f3a551f2",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "17476ccd",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "5e1a56ea",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "992671eb",
+    "fitness": 0.3673,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "4dff27ad",
+    "fitness": 0.3495,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "c4b3a14e",
+    "fitness": 0.3495,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "aa6e6630",
+    "fitness": 0.3495,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "b08ed434",
+    "fitness": 0.3495,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "08656014",
+    "fitness": 0.0,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "18782844",
+    "fitness": 0.0,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "ada2de9e",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "4c1c30b8",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "f3a551f2",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "17476ccd",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "acd71bbd",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "17476ccd",
+      "4c1c30b8"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "db12cce3",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "4c1c30b8",
+      "17476ccd"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "adbbfbed",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "ada2de9e",
+      "f3a551f2"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "cbd4af4f",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "ada2de9e"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "d3be84ee",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "f3a551f2"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "43ad80f4",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "4c1c30b8"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "53c729f4",
+    "fitness": 0.3606,
+    "parent_ids": [
+      "4c1c30b8",
+      "f3a551f2"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "9bf665c8",
+    "fitness": 0.0,
+    "parent_ids": [
+      "4c1c30b8"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "ada2de9e",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "f3a551f2",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "17476ccd",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "0170e383",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "4c1c30b8",
+      "ada2de9e"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "5eabb59a",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "ada2de9e",
+      "17476ccd"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "eeba8580",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "17476ccd",
+      "4c1c30b8"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "28000475",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "17476ccd"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "8e15ff41",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "ada2de9e"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "ac52eb8a",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "17476ccd"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "daeb1717",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "17476ccd"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "4c1c30b8",
+    "fitness": 0.0,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "96ab6762",
+    "fitness": 0.0,
+    "parent_ids": [
+      "4c1c30b8",
+      "ada2de9e"
+    ]
+  }
+]
