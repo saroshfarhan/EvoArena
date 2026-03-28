@@ -30,6 +30,22 @@ Think of it as **natural selection for AI agents**: instead of DNA, agents inher
 
 ---
 
+## What Does "The Agent Evolved" Actually Mean?
+
+The agent didn't evolve — the **genome** evolved.
+
+Here's what that means concretely:
+
+- **Gen 1:** Random genomes. Some agents have `cooperation_bias=0.1` (defects every round, loses to Tit-for-Tat). Some have `verification_level=0.1` (never tests code, submits buggy functions). These score low.
+- **Gen 2:** Those low scorers are killed off. The ones with `cooperation_bias=0.8, verification_level=0.7` survived. Their children inherit those values, with small random nudges.
+- **Gen 3:** The population now clusters around trait values that actually work. The average `cooperation_bias` across the population is higher than Gen 1. The average `verification_level` is higher.
+
+So when we say "the agent evolved" we mean: **the instructions being handed to Claude got better over generations.**
+
+The thing that changed is not Claude — it's the profile of traits that natural selection kept alive. By Gen 3 you can look at the best genome and say "evolution discovered that a cooperative, verification-heavy, moderate-planning agent beats a random one" — and that finding came purely from running tasks and scoring results, not from anyone programming that in.
+
+---
+
 ## How the Tweaking Actually Works
 
 This is the part that makes EvoArena more than a typical evolutionary algorithm — the genome numbers don't directly control logic. They control **what Claude is told to do**, and Claude is an LLM making real decisions. Here is exactly what happens at each stage.

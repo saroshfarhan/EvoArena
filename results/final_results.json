@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-03-28T14:57:55.132603",
+  "run_at": "2026-03-28T16:22:07.606336",
   "config": {
     "population_size": 12,
     "generations": 3,
@@ -17,14 +17,14 @@
       "agents": [
         {
           "genome": {
-            "agent_id": "ada2de9e",
-            "planning_depth": 4.422,
+            "agent_id": "4d6d65f2",
+            "planning_depth": 3.797,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.7334,
-            "exploration_rate": 0.6441,
-            "verification_level": 0.8367,
-            "risk_bias": 0.7315,
-            "tool_usage_bias": 0.5458,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.2245,
+            "verification_level": 0.9124,
+            "risk_bias": 0.6278,
+            "tool_usage_bias": 0.928,
             "generation": 1,
             "fitness": 0.3749,
             "parent_ids": []
@@ -34,14 +34,14 @@
         },
         {
           "genome": {
-            "agent_id": "4c1c30b8",
-            "planning_depth": 2.265,
+            "agent_id": "71eedda7",
+            "planning_depth": 4.429,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.4221,
-            "exploration_rate": 0.1041,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.1208,
+            "cooperation_bias": 0.494,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
             "generation": 1,
             "fitness": 0.3749,
             "parent_ids": []
@@ -51,65 +51,31 @@
         },
         {
           "genome": {
-            "agent_id": "f3a551f2",
-            "planning_depth": 2.576,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.5924,
-            "exploration_rate": 0.0503,
-            "verification_level": 0.6283,
-            "risk_bias": 0.6847,
-            "tool_usage_bias": 0.9088,
+            "agent_id": "1249792f",
+            "planning_depth": 3.318,
+            "reasoning_steps": 6,
+            "cooperation_bias": 0.7958,
+            "exploration_rate": 0.4901,
+            "verification_level": 0.533,
+            "risk_bias": 0.7816,
+            "tool_usage_bias": 0.7192,
             "generation": 1,
-            "fitness": 0.3749,
+            "fitness": 0.3717,
             "parent_ids": []
           },
           "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
+          "mean_efficiency": 0.8586
         },
         {
           "genome": {
-            "agent_id": "17476ccd",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.3948,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.5621,
-            "risk_bias": 0.8615,
-            "tool_usage_bias": 0.7145,
-            "generation": 1,
-            "fitness": 0.3749,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "5e1a56ea",
-            "planning_depth": 1.293,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.5192,
-            "exploration_rate": 0.6842,
-            "verification_level": 0.4756,
-            "risk_bias": 0.6804,
-            "tool_usage_bias": 0.5418,
-            "generation": 1,
-            "fitness": 0.3749,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "992671eb",
-            "planning_depth": 1.479,
+            "agent_id": "1a40276b",
+            "planning_depth": 1.619,
             "reasoning_steps": 5,
-            "cooperation_bias": 0.0596,
-            "exploration_rate": 0.4411,
-            "verification_level": 0.1907,
-            "risk_bias": 0.3843,
-            "tool_usage_bias": 0.5663,
+            "cooperation_bias": 0.9597,
+            "exploration_rate": 0.4197,
+            "verification_level": 0.0462,
+            "risk_bias": 0.1889,
+            "tool_usage_bias": 0.6815,
             "generation": 1,
             "fitness": 0.3673,
             "parent_ids": []
@@ -119,99 +85,133 @@
         },
         {
           "genome": {
-            "agent_id": "4dff27ad",
-            "planning_depth": 1.049,
-            "reasoning_steps": 3,
-            "cooperation_bias": 0.6841,
-            "exploration_rate": 0.7228,
-            "verification_level": 0.4789,
-            "risk_bias": 0.1412,
-            "tool_usage_bias": 0.802,
-            "generation": 1,
-            "fitness": 0.3495,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.7475
-        },
-        {
-          "genome": {
-            "agent_id": "c4b3a14e",
-            "planning_depth": 4.11,
-            "reasoning_steps": 3,
-            "cooperation_bias": 0.8147,
-            "exploration_rate": 0.1112,
-            "verification_level": 0.878,
-            "risk_bias": 0.6371,
-            "tool_usage_bias": 0.4753,
-            "generation": 1,
-            "fitness": 0.3495,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.7475
-        },
-        {
-          "genome": {
-            "agent_id": "aa6e6630",
-            "planning_depth": 4.267,
-            "reasoning_steps": 3,
-            "cooperation_bias": 0.8593,
-            "exploration_rate": 0.3055,
-            "verification_level": 0.1006,
-            "risk_bias": 0.9204,
-            "tool_usage_bias": 0.4015,
-            "generation": 1,
-            "fitness": 0.3495,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.7475
-        },
-        {
-          "genome": {
-            "agent_id": "b08ed434",
-            "planning_depth": 4.01,
-            "reasoning_steps": 3,
-            "cooperation_bias": 0.3324,
-            "exploration_rate": 0.2912,
-            "verification_level": 0.2386,
-            "risk_bias": 0.7795,
-            "tool_usage_bias": 0.4049,
-            "generation": 1,
-            "fitness": 0.3495,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.7475
-        },
-        {
-          "genome": {
-            "agent_id": "08656014",
-            "planning_depth": 4.734,
-            "reasoning_steps": 4,
-            "cooperation_bias": 0.7491,
-            "exploration_rate": 0.7551,
-            "verification_level": 0.7327,
-            "risk_bias": 0.6826,
-            "tool_usage_bias": 0.4424,
-            "generation": 1,
-            "fitness": 0.0,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.0
-        },
-        {
-          "genome": {
-            "agent_id": "18782844",
-            "planning_depth": 4.248,
+            "agent_id": "d88c780e",
+            "planning_depth": 3.809,
             "reasoning_steps": 5,
-            "cooperation_bias": 0.5413,
-            "exploration_rate": 0.7673,
-            "verification_level": 0.5055,
-            "risk_bias": 0.5904,
-            "tool_usage_bias": 0.5926,
+            "cooperation_bias": 0.7635,
+            "exploration_rate": 0.8995,
+            "verification_level": 0.1127,
+            "risk_bias": 0.7278,
+            "tool_usage_bias": 0.0776,
+            "generation": 1,
+            "fitness": 0.3673,
+            "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8364
+        },
+        {
+          "genome": {
+            "agent_id": "a5eafa74",
+            "planning_depth": 1.886,
+            "reasoning_steps": 4,
+            "cooperation_bias": 0.9185,
+            "exploration_rate": 0.0121,
+            "verification_level": 0.12,
+            "risk_bias": 0.1204,
+            "tool_usage_bias": 0.52,
+            "generation": 1,
+            "fitness": 0.3606,
+            "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.803
+        },
+        {
+          "genome": {
+            "agent_id": "0f46364c",
+            "planning_depth": 2.204,
+            "reasoning_steps": 4,
+            "cooperation_bias": 0.0597,
+            "exploration_rate": 0.2798,
+            "verification_level": 0.7008,
+            "risk_bias": 0.7828,
+            "tool_usage_bias": 0.4231,
+            "generation": 1,
+            "fitness": 0.3606,
+            "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.803
+        },
+        {
+          "genome": {
+            "agent_id": "8e26bc45",
+            "planning_depth": 2.921,
+            "reasoning_steps": 4,
+            "cooperation_bias": 0.2314,
+            "exploration_rate": 0.4752,
+            "verification_level": 0.6821,
+            "risk_bias": 0.2744,
+            "tool_usage_bias": 0.0228,
+            "generation": 1,
+            "fitness": 0.3606,
+            "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.803
+        },
+        {
+          "genome": {
+            "agent_id": "12e3db2b",
+            "planning_depth": 3.215,
+            "reasoning_steps": 3,
+            "cooperation_bias": 0.6593,
+            "exploration_rate": 0.9409,
+            "verification_level": 0.473,
+            "risk_bias": 0.6846,
+            "tool_usage_bias": 0.7187,
+            "generation": 1,
+            "fitness": 0.3495,
+            "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.7475
+        },
+        {
+          "genome": {
+            "agent_id": "6978e2af",
+            "planning_depth": 3.687,
+            "reasoning_steps": 3,
+            "cooperation_bias": 0.0537,
+            "exploration_rate": 0.1217,
+            "verification_level": 0.9742,
+            "risk_bias": 0.9032,
+            "tool_usage_bias": 0.6771,
+            "generation": 1,
+            "fitness": 0.3495,
+            "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.7475
+        },
+        {
+          "genome": {
+            "agent_id": "8f8406fc",
+            "planning_depth": 2.942,
+            "reasoning_steps": 2,
+            "cooperation_bias": 0.0305,
+            "exploration_rate": 0.8449,
+            "verification_level": 0.9212,
+            "risk_bias": 0.0725,
+            "tool_usage_bias": 0.2377,
+            "generation": 1,
+            "fitness": 0.3495,
+            "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.7475
+        },
+        {
+          "genome": {
+            "agent_id": "4ce3364d",
+            "planning_depth": 4.847,
+            "reasoning_steps": 6,
+            "cooperation_bias": 0.5902,
+            "exploration_rate": 0.094,
+            "verification_level": 0.6993,
+            "risk_bias": 0.9314,
+            "tool_usage_bias": 0.0976,
             "generation": 1,
             "fitness": 0.0,
             "parent_ids": []
@@ -226,14 +226,14 @@
       "agents": [
         {
           "genome": {
-            "agent_id": "ada2de9e",
-            "planning_depth": 4.422,
+            "agent_id": "4d6d65f2",
+            "planning_depth": 3.797,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.7334,
-            "exploration_rate": 0.6441,
-            "verification_level": 0.8367,
-            "risk_bias": 0.7315,
-            "tool_usage_bias": 0.5458,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.2245,
+            "verification_level": 0.9124,
+            "risk_bias": 0.6278,
+            "tool_usage_bias": 0.928,
             "generation": 2,
             "fitness": 0.3749,
             "parent_ids": []
@@ -243,14 +243,14 @@
         },
         {
           "genome": {
-            "agent_id": "4c1c30b8",
-            "planning_depth": 2.265,
+            "agent_id": "71eedda7",
+            "planning_depth": 4.429,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.4221,
-            "exploration_rate": 0.1041,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.1208,
+            "cooperation_bias": 0.494,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
             "generation": 2,
             "fitness": 0.3749,
             "parent_ids": []
@@ -260,189 +260,189 @@
         },
         {
           "genome": {
-            "agent_id": "f3a551f2",
-            "planning_depth": 2.576,
+            "agent_id": "e3b1460f",
+            "planning_depth": 4.429,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.5924,
-            "exploration_rate": 0.0503,
-            "verification_level": 0.6283,
-            "risk_bias": 0.6847,
-            "tool_usage_bias": 0.9088,
+            "cooperation_bias": 0.9597,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
             "generation": 2,
             "fitness": 0.3749,
+            "parent_ids": [
+              "71eedda7",
+              "1a40276b"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "a93a965d",
+            "planning_depth": 3.797,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.928,
+            "generation": 2,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "4d6d65f2",
+              "71eedda7"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "0c7bda42",
+            "planning_depth": 3.686,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.5872,
+            "exploration_rate": 0.6827,
+            "verification_level": 0.1836,
+            "risk_bias": 0.0869,
+            "tool_usage_bias": 0.7827,
+            "generation": 2,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "71eedda7"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "54ed3843",
+            "planning_depth": 3.318,
+            "reasoning_steps": 6,
+            "cooperation_bias": 0.494,
+            "exploration_rate": 0.4901,
+            "verification_level": 0.533,
+            "risk_bias": 0.7816,
+            "tool_usage_bias": 0.7827,
+            "generation": 2,
+            "fitness": 0.3717,
+            "parent_ids": [
+              "1249792f",
+              "71eedda7"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8586
+        },
+        {
+          "genome": {
+            "agent_id": "316b1e53",
+            "planning_depth": 3.318,
+            "reasoning_steps": 6,
+            "cooperation_bias": 0.6371,
+            "exploration_rate": 0.4901,
+            "verification_level": 0.533,
+            "risk_bias": 0.912,
+            "tool_usage_bias": 0.7192,
+            "generation": 2,
+            "fitness": 0.3717,
+            "parent_ids": [
+              "1249792f"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8586
+        },
+        {
+          "genome": {
+            "agent_id": "1a846e21",
+            "planning_depth": 4.639,
+            "reasoning_steps": 6,
+            "cooperation_bias": 0.2524,
+            "exploration_rate": 0.164,
+            "verification_level": 0.5529,
+            "risk_bias": 0.8284,
+            "tool_usage_bias": 0.8748,
+            "generation": 2,
+            "fitness": 0.3717,
+            "parent_ids": [
+              "4d6d65f2"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8586
+        },
+        {
+          "genome": {
+            "agent_id": "1a40276b",
+            "planning_depth": 1.619,
+            "reasoning_steps": 5,
+            "cooperation_bias": 0.9597,
+            "exploration_rate": 0.4197,
+            "verification_level": 0.0462,
+            "risk_bias": 0.1889,
+            "tool_usage_bias": 0.6815,
+            "generation": 2,
+            "fitness": 0.3673,
             "parent_ids": []
           },
           "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
+          "mean_efficiency": 0.8364
         },
         {
           "genome": {
-            "agent_id": "17476ccd",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.3948,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.5621,
-            "risk_bias": 0.8615,
-            "tool_usage_bias": 0.7145,
+            "agent_id": "52a31b74",
+            "planning_depth": 1.619,
+            "reasoning_steps": 5,
+            "cooperation_bias": 0.977,
+            "exploration_rate": 0.4197,
+            "verification_level": 0.0462,
+            "risk_bias": 0.1889,
+            "tool_usage_bias": 0.7093,
             "generation": 2,
-            "fitness": 0.3749,
+            "fitness": 0.3673,
+            "parent_ids": [
+              "1a40276b"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8364
+        },
+        {
+          "genome": {
+            "agent_id": "1249792f",
+            "planning_depth": 3.318,
+            "reasoning_steps": 6,
+            "cooperation_bias": 0.7958,
+            "exploration_rate": 0.4901,
+            "verification_level": 0.533,
+            "risk_bias": 0.7816,
+            "tool_usage_bias": 0.7192,
+            "generation": 2,
+            "fitness": 0.3717,
             "parent_ids": []
           },
           "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
+          "mean_efficiency": 0.0
         },
         {
           "genome": {
-            "agent_id": "acd71bbd",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.4221,
-            "exploration_rate": 0.1041,
-            "verification_level": 0.5621,
-            "risk_bias": 0.8615,
-            "tool_usage_bias": 0.7145,
-            "generation": 2,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "17476ccd",
-              "4c1c30b8"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "db12cce3",
-            "planning_depth": 2.265,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.4221,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.1208,
-            "generation": 2,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "4c1c30b8",
-              "17476ccd"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "adbbfbed",
-            "planning_depth": 2.576,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.5924,
-            "exploration_rate": 0.6441,
-            "verification_level": 0.6283,
-            "risk_bias": 0.6847,
-            "tool_usage_bias": 0.5458,
-            "generation": 2,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "ada2de9e",
-              "f3a551f2"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "cbd4af4f",
-            "planning_depth": 4.422,
-            "reasoning_steps": 7,
-            "cooperation_bias": 1.0,
-            "exploration_rate": 0.5705,
-            "verification_level": 0.8367,
-            "risk_bias": 0.7315,
-            "tool_usage_bias": 0.5458,
-            "generation": 2,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "ada2de9e"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "d3be84ee",
-            "planning_depth": 2.548,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.5924,
-            "exploration_rate": 0.0,
-            "verification_level": 0.6283,
-            "risk_bias": 0.5277,
-            "tool_usage_bias": 0.9088,
-            "generation": 2,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "f3a551f2"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "43ad80f4",
-            "planning_depth": 3.051,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.2674,
-            "exploration_rate": 0.1041,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.1208,
-            "generation": 2,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "4c1c30b8"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "53c729f4",
-            "planning_depth": 2.265,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.5924,
-            "exploration_rate": 0.1041,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.9088,
-            "generation": 2,
-            "fitness": 0.3606,
-            "parent_ids": [
-              "4c1c30b8",
-              "f3a551f2"
-            ]
-          },
-          "mean_accuracy": 0.3333,
-          "mean_efficiency": 0.7792
-        },
-        {
-          "genome": {
-            "agent_id": "9bf665c8",
-            "planning_depth": 2.265,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.4221,
-            "exploration_rate": 0.1041,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.1208,
+            "agent_id": "9495dc32",
+            "planning_depth": 4.429,
+            "reasoning_steps": 5,
+            "cooperation_bias": 0.494,
+            "exploration_rate": 0.4197,
+            "verification_level": 0.1836,
+            "risk_bias": 0.1889,
+            "tool_usage_bias": 0.6815,
             "generation": 2,
             "fitness": 0.0,
             "parent_ids": [
-              "4c1c30b8"
+              "71eedda7",
+              "1a40276b"
             ]
           },
           "mean_accuracy": 0.0,
@@ -455,14 +455,14 @@
       "agents": [
         {
           "genome": {
-            "agent_id": "ada2de9e",
-            "planning_depth": 4.422,
+            "agent_id": "4d6d65f2",
+            "planning_depth": 3.797,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.7334,
-            "exploration_rate": 0.6441,
-            "verification_level": 0.8367,
-            "risk_bias": 0.7315,
-            "tool_usage_bias": 0.5458,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.2245,
+            "verification_level": 0.9124,
+            "risk_bias": 0.6278,
+            "tool_usage_bias": 0.928,
             "generation": 3,
             "fitness": 0.3749,
             "parent_ids": []
@@ -472,206 +472,212 @@
         },
         {
           "genome": {
-            "agent_id": "f3a551f2",
-            "planning_depth": 2.576,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.5924,
-            "exploration_rate": 0.0503,
-            "verification_level": 0.6283,
-            "risk_bias": 0.6847,
-            "tool_usage_bias": 0.9088,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "17476ccd",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.3948,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.5621,
-            "risk_bias": 0.8615,
-            "tool_usage_bias": 0.7145,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": []
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "0170e383",
-            "planning_depth": 2.265,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.7334,
-            "exploration_rate": 0.6441,
-            "verification_level": 0.9139,
-            "risk_bias": 0.7315,
-            "tool_usage_bias": 0.5458,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "4c1c30b8",
-              "ada2de9e"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "5eabb59a",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.7334,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.8367,
-            "risk_bias": 0.8615,
-            "tool_usage_bias": 0.7145,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "ada2de9e",
-              "17476ccd"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "eeba8580",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.4221,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.7145,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "17476ccd",
-              "4c1c30b8"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "28000475",
+            "agent_id": "71eedda7",
             "planning_depth": 4.429,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.3948,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.6447,
-            "risk_bias": 0.8615,
-            "tool_usage_bias": 0.6395,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "17476ccd"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "8e15ff41",
-            "planning_depth": 4.422,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.7334,
-            "exploration_rate": 0.6441,
-            "verification_level": 0.8367,
-            "risk_bias": 0.7315,
-            "tool_usage_bias": 0.7011,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "ada2de9e"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "ac52eb8a",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.5348,
-            "exploration_rate": 0.494,
-            "verification_level": 0.5621,
-            "risk_bias": 0.8615,
-            "tool_usage_bias": 0.7145,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "17476ccd"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "daeb1717",
-            "planning_depth": 3.782,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.3948,
-            "exploration_rate": 0.7432,
-            "verification_level": 0.5621,
-            "risk_bias": 0.7645,
-            "tool_usage_bias": 0.7145,
-            "generation": 3,
-            "fitness": 0.3749,
-            "parent_ids": [
-              "17476ccd"
-            ]
-          },
-          "mean_accuracy": 0.0,
-          "mean_efficiency": 0.8745
-        },
-        {
-          "genome": {
-            "agent_id": "4c1c30b8",
-            "planning_depth": 2.265,
-            "reasoning_steps": 7,
-            "cooperation_bias": 0.4221,
-            "exploration_rate": 0.1041,
-            "verification_level": 0.9139,
-            "risk_bias": 0.3891,
-            "tool_usage_bias": 0.1208,
+            "cooperation_bias": 0.494,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
             "generation": 3,
             "fitness": 0.3749,
             "parent_ids": []
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "a93a965d",
+            "planning_depth": 3.797,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.928,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "4d6d65f2",
+              "71eedda7"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "27f8d99d",
+            "planning_depth": 3.797,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.9124,
+            "risk_bias": 0.6278,
+            "tool_usage_bias": 0.928,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "71eedda7",
+              "4d6d65f2"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "de82d1e4",
+            "planning_depth": 3.797,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.494,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.6278,
+            "tool_usage_bias": 0.928,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "4d6d65f2",
+              "71eedda7"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "30f926ef",
+            "planning_depth": 3.797,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.9124,
+            "risk_bias": 0.6278,
+            "tool_usage_bias": 0.928,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "71eedda7",
+              "4d6d65f2"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "107eb6eb",
+            "planning_depth": 4.073,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.9597,
+            "exploration_rate": 0.9112,
+            "verification_level": 0.1836,
+            "risk_bias": 0.0336,
+            "tool_usage_bias": 0.7827,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "e3b1460f"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "a0ba575b",
+            "planning_depth": 4.429,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.69,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "e3b1460f"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "c43cf1e6",
+            "planning_depth": 3.443,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.5146,
+            "exploration_rate": 0.6554,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.928,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "a93a965d"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.8745
+        },
+        {
+          "genome": {
+            "agent_id": "e3b1460f",
+            "planning_depth": 4.429,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.9597,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
+            "generation": 3,
+            "fitness": 0.3749,
+            "parent_ids": [
+              "71eedda7",
+              "1a40276b"
+            ]
           },
           "mean_accuracy": 0.0,
           "mean_efficiency": 0.0
         },
         {
           "genome": {
-            "agent_id": "96ab6762",
-            "planning_depth": 4.422,
+            "agent_id": "393692e3",
+            "planning_depth": 4.429,
             "reasoning_steps": 7,
-            "cooperation_bias": 0.7334,
-            "exploration_rate": 0.6441,
-            "verification_level": 0.8367,
-            "risk_bias": 0.7315,
-            "tool_usage_bias": 0.5458,
+            "cooperation_bias": 0.9597,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.1836,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
             "generation": 3,
             "fitness": 0.0,
             "parent_ids": [
-              "4c1c30b8",
-              "ada2de9e"
+              "e3b1460f",
+              "71eedda7"
+            ]
+          },
+          "mean_accuracy": 0.0,
+          "mean_efficiency": 0.0
+        },
+        {
+          "genome": {
+            "agent_id": "eba55d63",
+            "planning_depth": 4.429,
+            "reasoning_steps": 7,
+            "cooperation_bias": 0.9597,
+            "exploration_rate": 0.7272,
+            "verification_level": 0.4339,
+            "risk_bias": 0.2179,
+            "tool_usage_bias": 0.7827,
+            "generation": 3,
+            "fitness": 0.0,
+            "parent_ids": [
+              "e3b1460f"
             ]
           },
           "mean_accuracy": 0.0,
@@ -681,14 +687,14 @@
     }
   ],
   "best_agent": {
-    "agent_id": "ada2de9e",
-    "planning_depth": 4.422,
+    "agent_id": "4d6d65f2",
+    "planning_depth": 3.797,
     "reasoning_steps": 7,
-    "cooperation_bias": 0.7334,
-    "exploration_rate": 0.6441,
-    "verification_level": 0.8367,
-    "risk_bias": 0.7315,
-    "tool_usage_bias": 0.5458,
+    "cooperation_bias": 0.5146,
+    "exploration_rate": 0.2245,
+    "verification_level": 0.9124,
+    "risk_bias": 0.6278,
+    "tool_usage_bias": 0.928,
     "generation": 1,
     "fitness": 0.3749,
     "parent_ids": []

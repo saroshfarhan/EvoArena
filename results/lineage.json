@@ -1,258 +1,264 @@
 [
   {
     "generation": 1,
-    "agent_id": "ada2de9e",
+    "agent_id": "4d6d65f2",
     "fitness": 0.3749,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "4c1c30b8",
+    "agent_id": "71eedda7",
     "fitness": 0.3749,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "f3a551f2",
-    "fitness": 0.3749,
+    "agent_id": "1249792f",
+    "fitness": 0.3717,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "17476ccd",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 1,
-    "agent_id": "5e1a56ea",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 1,
-    "agent_id": "992671eb",
+    "agent_id": "1a40276b",
     "fitness": 0.3673,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "4dff27ad",
-    "fitness": 0.3495,
+    "agent_id": "d88c780e",
+    "fitness": 0.3673,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "c4b3a14e",
-    "fitness": 0.3495,
-    "parent_ids": []
-  },
-  {
-    "generation": 1,
-    "agent_id": "aa6e6630",
-    "fitness": 0.3495,
-    "parent_ids": []
-  },
-  {
-    "generation": 1,
-    "agent_id": "b08ed434",
-    "fitness": 0.3495,
-    "parent_ids": []
-  },
-  {
-    "generation": 1,
-    "agent_id": "08656014",
-    "fitness": 0.0,
-    "parent_ids": []
-  },
-  {
-    "generation": 1,
-    "agent_id": "18782844",
-    "fitness": 0.0,
-    "parent_ids": []
-  },
-  {
-    "generation": 2,
-    "agent_id": "ada2de9e",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 2,
-    "agent_id": "4c1c30b8",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 2,
-    "agent_id": "f3a551f2",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 2,
-    "agent_id": "17476ccd",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 2,
-    "agent_id": "acd71bbd",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "17476ccd",
-      "4c1c30b8"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "db12cce3",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "4c1c30b8",
-      "17476ccd"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "adbbfbed",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "ada2de9e",
-      "f3a551f2"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "cbd4af4f",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "ada2de9e"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "d3be84ee",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "f3a551f2"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "43ad80f4",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "4c1c30b8"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "53c729f4",
+    "agent_id": "a5eafa74",
     "fitness": 0.3606,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "0f46364c",
+    "fitness": 0.3606,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "8e26bc45",
+    "fitness": 0.3606,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "12e3db2b",
+    "fitness": 0.3495,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "6978e2af",
+    "fitness": 0.3495,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "8f8406fc",
+    "fitness": 0.3495,
+    "parent_ids": []
+  },
+  {
+    "generation": 1,
+    "agent_id": "4ce3364d",
+    "fitness": 0.0,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "4d6d65f2",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "71eedda7",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "e3b1460f",
+    "fitness": 0.3749,
     "parent_ids": [
-      "4c1c30b8",
-      "f3a551f2"
+      "71eedda7",
+      "1a40276b"
     ]
   },
   {
     "generation": 2,
-    "agent_id": "9bf665c8",
-    "fitness": 0.0,
+    "agent_id": "a93a965d",
+    "fitness": 0.3749,
     "parent_ids": [
-      "4c1c30b8"
+      "4d6d65f2",
+      "71eedda7"
     ]
   },
   {
-    "generation": 3,
-    "agent_id": "ada2de9e",
+    "generation": 2,
+    "agent_id": "0c7bda42",
     "fitness": 0.3749,
+    "parent_ids": [
+      "71eedda7"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "54ed3843",
+    "fitness": 0.3717,
+    "parent_ids": [
+      "1249792f",
+      "71eedda7"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "316b1e53",
+    "fitness": 0.3717,
+    "parent_ids": [
+      "1249792f"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "1a846e21",
+    "fitness": 0.3717,
+    "parent_ids": [
+      "4d6d65f2"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "1a40276b",
+    "fitness": 0.3673,
     "parent_ids": []
   },
   {
-    "generation": 3,
-    "agent_id": "f3a551f2",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 3,
-    "agent_id": "17476ccd",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 3,
-    "agent_id": "0170e383",
-    "fitness": 0.3749,
+    "generation": 2,
+    "agent_id": "52a31b74",
+    "fitness": 0.3673,
     "parent_ids": [
-      "4c1c30b8",
-      "ada2de9e"
+      "1a40276b"
     ]
   },
   {
-    "generation": 3,
-    "agent_id": "5eabb59a",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "ada2de9e",
-      "17476ccd"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "eeba8580",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "17476ccd",
-      "4c1c30b8"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "28000475",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "17476ccd"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "8e15ff41",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "ada2de9e"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "ac52eb8a",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "17476ccd"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "daeb1717",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "17476ccd"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "4c1c30b8",
+    "generation": 2,
+    "agent_id": "1249792f",
     "fitness": 0.0,
     "parent_ids": []
   },
   {
-    "generation": 3,
-    "agent_id": "96ab6762",
+    "generation": 2,
+    "agent_id": "9495dc32",
     "fitness": 0.0,
     "parent_ids": [
-      "4c1c30b8",
-      "ada2de9e"
+      "71eedda7",
+      "1a40276b"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "4d6d65f2",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "71eedda7",
+    "fitness": 0.3749,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "a93a965d",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "4d6d65f2",
+      "71eedda7"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "27f8d99d",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "71eedda7",
+      "4d6d65f2"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "de82d1e4",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "4d6d65f2",
+      "71eedda7"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "30f926ef",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "71eedda7",
+      "4d6d65f2"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "107eb6eb",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "e3b1460f"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "a0ba575b",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "e3b1460f"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "c43cf1e6",
+    "fitness": 0.3749,
+    "parent_ids": [
+      "a93a965d"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "e3b1460f",
+    "fitness": 0.0,
+    "parent_ids": [
+      "71eedda7",
+      "1a40276b"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "393692e3",
+    "fitness": 0.0,
+    "parent_ids": [
+      "e3b1460f",
+      "71eedda7"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "eba55d63",
+    "fitness": 0.0,
+    "parent_ids": [
+      "e3b1460f"
     ]
   }
 ]
