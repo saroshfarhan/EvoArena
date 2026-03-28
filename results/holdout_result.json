@@ -1,0 +1,29 @@
+{
+  "agent_id": "732478f5",
+  "genome": {
+    "agent_id": "732478f5",
+    "planning_depth": 1.977,
+    "reasoning_steps": 6,
+    "cooperation_bias": 0.406,
+    "exploration_rate": 0.3311,
+    "verification_level": 0.7814,
+    "risk_bias": 0.9896,
+    "tool_usage_bias": 0.4559,
+    "generation": 3,
+    "fitness": 0.3129,
+    "parent_ids": [
+      "ecccc739"
+    ]
+  },
+  "negotiation": {
+    "accuracy": 0.0,
+    "steps_used": 1,
+    "max_steps": 8,
+    "tool_calls": [
+      "finish"
+    ],
+    "total_earned": 0,
+    "max_score": 30,
+    "rounds_played": 0
+  }
+}

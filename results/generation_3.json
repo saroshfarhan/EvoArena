@@ -3,229 +3,221 @@
   "agents": [
     {
       "genome": {
-        "agent_id": "4d6d65f2",
-        "planning_depth": 3.797,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.5146,
-        "exploration_rate": 0.2245,
-        "verification_level": 0.9124,
-        "risk_bias": 0.6278,
-        "tool_usage_bias": 0.928,
+        "agent_id": "732478f5",
+        "planning_depth": 1.977,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.406,
+        "exploration_rate": 0.3311,
+        "verification_level": 0.7814,
+        "risk_bias": 0.9896,
+        "tool_usage_bias": 0.4559,
         "generation": 3,
-        "fitness": 0.3749,
+        "fitness": 0.3129,
+        "parent_ids": [
+          "ecccc739"
+        ]
+      },
+      "mean_accuracy": 0.3333,
+      "mean_efficiency": 0.7475
+    },
+    {
+      "genome": {
+        "agent_id": "b44757ce",
+        "planning_depth": 1.132,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.3914,
+        "exploration_rate": 0.4397,
+        "verification_level": 0.5745,
+        "risk_bias": 0.8603,
+        "tool_usage_bias": 0.2608,
+        "generation": 3,
+        "fitness": 0.2859,
         "parent_ids": []
       },
       "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
+      "mean_efficiency": 0.8586
     },
     {
       "genome": {
-        "agent_id": "71eedda7",
-        "planning_depth": 4.429,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.494,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.1836,
-        "risk_bias": 0.2179,
-        "tool_usage_bias": 0.7827,
+        "agent_id": "6997ceaa",
+        "planning_depth": 1.735,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.3127,
+        "exploration_rate": 0.5492,
+        "verification_level": 0.7613,
+        "risk_bias": 0.8461,
+        "tool_usage_bias": 0.7264,
         "generation": 3,
-        "fitness": 0.3749,
+        "fitness": 0.2859,
         "parent_ids": []
       },
       "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
+      "mean_efficiency": 0.8586
     },
     {
       "genome": {
-        "agent_id": "a93a965d",
-        "planning_depth": 3.797,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.5146,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.1836,
-        "risk_bias": 0.2179,
-        "tool_usage_bias": 0.928,
+        "agent_id": "ecccc739",
+        "planning_depth": 1.977,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.6266,
+        "exploration_rate": 0.226,
+        "verification_level": 0.7814,
+        "risk_bias": 0.8437,
+        "tool_usage_bias": 0.4559,
         "generation": 3,
-        "fitness": 0.3749,
+        "fitness": 0.2859,
+        "parent_ids": []
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8586
+    },
+    {
+      "genome": {
+        "agent_id": "797a0fbc",
+        "planning_depth": 3.272,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.1268,
+        "exploration_rate": 0.6115,
+        "verification_level": 0.0512,
+        "risk_bias": 0.1795,
+        "tool_usage_bias": 0.2123,
+        "generation": 3,
+        "fitness": 0.2859,
+        "parent_ids": []
+      },
+      "mean_accuracy": 0.0,
+      "mean_efficiency": 0.8586
+    },
+    {
+      "genome": {
+        "agent_id": "a653e370",
+        "planning_depth": 1.977,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.6266,
+        "exploration_rate": 0.5492,
+        "verification_level": 0.7814,
+        "risk_bias": 0.8461,
+        "tool_usage_bias": 0.7264,
+        "generation": 3,
+        "fitness": 0.2859,
         "parent_ids": [
-          "4d6d65f2",
-          "71eedda7"
+          "ecccc739",
+          "6997ceaa"
         ]
       },
       "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
+      "mean_efficiency": 0.8586
     },
     {
       "genome": {
-        "agent_id": "27f8d99d",
-        "planning_depth": 3.797,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.5146,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.9124,
-        "risk_bias": 0.6278,
-        "tool_usage_bias": 0.928,
+        "agent_id": "ebc23204",
+        "planning_depth": 1.735,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.8395,
+        "exploration_rate": 0.5492,
+        "verification_level": 0.1795,
+        "risk_bias": 0.8461,
+        "tool_usage_bias": 0.2678,
         "generation": 3,
-        "fitness": 0.3749,
+        "fitness": 0.2859,
         "parent_ids": [
-          "71eedda7",
-          "4d6d65f2"
+          "6997ceaa",
+          "b1b604a6"
         ]
       },
       "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
+      "mean_efficiency": 0.8586
     },
     {
       "genome": {
-        "agent_id": "de82d1e4",
-        "planning_depth": 3.797,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.494,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.1836,
-        "risk_bias": 0.6278,
-        "tool_usage_bias": 0.928,
+        "agent_id": "3d0c21c9",
+        "planning_depth": 3.141,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.0931,
+        "exploration_rate": 0.4397,
+        "verification_level": 0.5431,
+        "risk_bias": 0.8603,
+        "tool_usage_bias": 0.2608,
         "generation": 3,
-        "fitness": 0.3749,
+        "fitness": 0.2859,
         "parent_ids": [
-          "4d6d65f2",
-          "71eedda7"
+          "dfc5540b"
         ]
       },
       "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
+      "mean_efficiency": 0.8586
     },
     {
       "genome": {
-        "agent_id": "30f926ef",
-        "planning_depth": 3.797,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.5146,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.9124,
-        "risk_bias": 0.6278,
-        "tool_usage_bias": 0.928,
+        "agent_id": "c68a5852",
+        "planning_depth": 3.272,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.1194,
+        "exploration_rate": 0.6115,
+        "verification_level": 0.0512,
+        "risk_bias": 0.0007,
+        "tool_usage_bias": 0.2796,
         "generation": 3,
-        "fitness": 0.3749,
+        "fitness": 0.2859,
         "parent_ids": [
-          "71eedda7",
-          "4d6d65f2"
+          "797a0fbc"
         ]
       },
       "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
+      "mean_efficiency": 0.8586
     },
     {
       "genome": {
-        "agent_id": "107eb6eb",
-        "planning_depth": 4.073,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.9597,
-        "exploration_rate": 0.9112,
-        "verification_level": 0.1836,
-        "risk_bias": 0.0336,
-        "tool_usage_bias": 0.7827,
+        "agent_id": "35ac6883",
+        "planning_depth": 1.977,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.3914,
+        "exploration_rate": 0.226,
+        "verification_level": 0.7814,
+        "risk_bias": 0.8603,
+        "tool_usage_bias": 0.2608,
         "generation": 3,
-        "fitness": 0.3749,
+        "fitness": 0.2529,
         "parent_ids": [
-          "e3b1460f"
+          "ecccc739",
+          "b44757ce"
         ]
       },
-      "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
+      "mean_accuracy": 0.3333,
+      "mean_efficiency": 0.7475
     },
     {
       "genome": {
-        "agent_id": "a0ba575b",
-        "planning_depth": 4.429,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.69,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.1836,
-        "risk_bias": 0.2179,
-        "tool_usage_bias": 0.7827,
+        "agent_id": "b1b604a6",
+        "planning_depth": 1.568,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.8395,
+        "exploration_rate": 0.8655,
+        "verification_level": 0.1795,
+        "risk_bias": 0.2268,
+        "tool_usage_bias": 0.2678,
         "generation": 3,
-        "fitness": 0.3749,
-        "parent_ids": [
-          "e3b1460f"
-        ]
-      },
-      "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
-    },
-    {
-      "genome": {
-        "agent_id": "c43cf1e6",
-        "planning_depth": 3.443,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.5146,
-        "exploration_rate": 0.6554,
-        "verification_level": 0.1836,
-        "risk_bias": 0.2179,
-        "tool_usage_bias": 0.928,
-        "generation": 3,
-        "fitness": 0.3749,
-        "parent_ids": [
-          "a93a965d"
-        ]
-      },
-      "mean_accuracy": 0.0,
-      "mean_efficiency": 0.8745
-    },
-    {
-      "genome": {
-        "agent_id": "e3b1460f",
-        "planning_depth": 4.429,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.9597,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.1836,
-        "risk_bias": 0.2179,
-        "tool_usage_bias": 0.7827,
-        "generation": 3,
-        "fitness": 0.3749,
-        "parent_ids": [
-          "71eedda7",
-          "1a40276b"
-        ]
+        "fitness": 0.2859,
+        "parent_ids": []
       },
       "mean_accuracy": 0.0,
       "mean_efficiency": 0.0
     },
     {
       "genome": {
-        "agent_id": "393692e3",
-        "planning_depth": 4.429,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.9597,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.1836,
-        "risk_bias": 0.2179,
-        "tool_usage_bias": 0.7827,
+        "agent_id": "dfc5540b",
+        "planning_depth": 3.272,
+        "reasoning_steps": 6,
+        "cooperation_bias": 0.1268,
+        "exploration_rate": 0.4397,
+        "verification_level": 0.5745,
+        "risk_bias": 0.8603,
+        "tool_usage_bias": 0.2608,
         "generation": 3,
-        "fitness": 0.0,
+        "fitness": 0.2859,
         "parent_ids": [
-          "e3b1460f",
-          "71eedda7"
-        ]
-      },
-      "mean_accuracy": 0.0,
-      "mean_efficiency": 0.0
-    },
-    {
-      "genome": {
-        "agent_id": "eba55d63",
-        "planning_depth": 4.429,
-        "reasoning_steps": 7,
-        "cooperation_bias": 0.9597,
-        "exploration_rate": 0.7272,
-        "verification_level": 0.4339,
-        "risk_bias": 0.2179,
-        "tool_usage_bias": 0.7827,
-        "generation": 3,
-        "fitness": 0.0,
-        "parent_ids": [
-          "e3b1460f"
+          "797a0fbc",
+          "b44757ce"
         ]
       },
       "mean_accuracy": 0.0,

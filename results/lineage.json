@@ -1,264 +1,251 @@
 [
   {
     "generation": 1,
-    "agent_id": "4d6d65f2",
-    "fitness": 0.3749,
+    "agent_id": "b1b604a6",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "71eedda7",
-    "fitness": 0.3749,
+    "agent_id": "b44757ce",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "1249792f",
-    "fitness": 0.3717,
+    "agent_id": "6997ceaa",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "1a40276b",
-    "fitness": 0.3673,
+    "agent_id": "ecccc739",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "d88c780e",
-    "fitness": 0.3673,
+    "agent_id": "797a0fbc",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "a5eafa74",
-    "fitness": 0.3606,
+    "agent_id": "287489a7",
+    "fitness": 0.2836,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "0f46364c",
-    "fitness": 0.3606,
+    "agent_id": "5ba0a8d4",
+    "fitness": 0.2803,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "8e26bc45",
-    "fitness": 0.3606,
+    "agent_id": "3e5352a4",
+    "fitness": 0.2803,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "12e3db2b",
-    "fitness": 0.3495,
+    "agent_id": "61790d01",
+    "fitness": 0.2747,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "6978e2af",
-    "fitness": 0.3495,
+    "agent_id": "001867ff",
+    "fitness": 0.2747,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "8f8406fc",
-    "fitness": 0.3495,
+    "agent_id": "fc78e360",
+    "fitness": 0.2747,
     "parent_ids": []
   },
   {
     "generation": 1,
-    "agent_id": "4ce3364d",
+    "agent_id": "de83fa9f",
     "fitness": 0.0,
     "parent_ids": []
   },
   {
     "generation": 2,
-    "agent_id": "4d6d65f2",
-    "fitness": 0.3749,
+    "agent_id": "b1b604a6",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 2,
-    "agent_id": "71eedda7",
-    "fitness": 0.3749,
+    "agent_id": "b44757ce",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 2,
-    "agent_id": "e3b1460f",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "71eedda7",
-      "1a40276b"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "a93a965d",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "4d6d65f2",
-      "71eedda7"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "0c7bda42",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "71eedda7"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "54ed3843",
-    "fitness": 0.3717,
-    "parent_ids": [
-      "1249792f",
-      "71eedda7"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "316b1e53",
-    "fitness": 0.3717,
-    "parent_ids": [
-      "1249792f"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "1a846e21",
-    "fitness": 0.3717,
-    "parent_ids": [
-      "4d6d65f2"
-    ]
-  },
-  {
-    "generation": 2,
-    "agent_id": "1a40276b",
-    "fitness": 0.3673,
+    "agent_id": "6997ceaa",
+    "fitness": 0.2859,
     "parent_ids": []
   },
   {
     "generation": 2,
-    "agent_id": "52a31b74",
-    "fitness": 0.3673,
+    "agent_id": "ecccc739",
+    "fitness": 0.2859,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "797a0fbc",
+    "fitness": 0.2859,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "dfc5540b",
+    "fitness": 0.2859,
     "parent_ids": [
-      "1a40276b"
+      "797a0fbc",
+      "b44757ce"
     ]
   },
   {
     "generation": 2,
-    "agent_id": "1249792f",
+    "agent_id": "5fb98380",
+    "fitness": 0.2859,
+    "parent_ids": [
+      "797a0fbc"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "501255de",
+    "fitness": 0.2859,
+    "parent_ids": [
+      "ecccc739"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "287489a7",
+    "fitness": 0.2836,
+    "parent_ids": []
+  },
+  {
+    "generation": 2,
+    "agent_id": "541cda5f",
+    "fitness": 0.2836,
+    "parent_ids": [
+      "797a0fbc",
+      "287489a7"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "8d2993b9",
+    "fitness": 0.0,
+    "parent_ids": [
+      "287489a7",
+      "b44757ce"
+    ]
+  },
+  {
+    "generation": 2,
+    "agent_id": "8b061e70",
+    "fitness": 0.0,
+    "parent_ids": [
+      "6997ceaa"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "732478f5",
+    "fitness": 0.3129,
+    "parent_ids": [
+      "ecccc739"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "b44757ce",
+    "fitness": 0.2859,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "6997ceaa",
+    "fitness": 0.2859,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "ecccc739",
+    "fitness": 0.2859,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "797a0fbc",
+    "fitness": 0.2859,
+    "parent_ids": []
+  },
+  {
+    "generation": 3,
+    "agent_id": "a653e370",
+    "fitness": 0.2859,
+    "parent_ids": [
+      "ecccc739",
+      "6997ceaa"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "ebc23204",
+    "fitness": 0.2859,
+    "parent_ids": [
+      "6997ceaa",
+      "b1b604a6"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "3d0c21c9",
+    "fitness": 0.2859,
+    "parent_ids": [
+      "dfc5540b"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "c68a5852",
+    "fitness": 0.2859,
+    "parent_ids": [
+      "797a0fbc"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "35ac6883",
+    "fitness": 0.2529,
+    "parent_ids": [
+      "ecccc739",
+      "b44757ce"
+    ]
+  },
+  {
+    "generation": 3,
+    "agent_id": "b1b604a6",
     "fitness": 0.0,
     "parent_ids": []
   },
   {
-    "generation": 2,
-    "agent_id": "9495dc32",
+    "generation": 3,
+    "agent_id": "dfc5540b",
     "fitness": 0.0,
     "parent_ids": [
-      "71eedda7",
-      "1a40276b"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "4d6d65f2",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 3,
-    "agent_id": "71eedda7",
-    "fitness": 0.3749,
-    "parent_ids": []
-  },
-  {
-    "generation": 3,
-    "agent_id": "a93a965d",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "4d6d65f2",
-      "71eedda7"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "27f8d99d",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "71eedda7",
-      "4d6d65f2"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "de82d1e4",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "4d6d65f2",
-      "71eedda7"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "30f926ef",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "71eedda7",
-      "4d6d65f2"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "107eb6eb",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "e3b1460f"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "a0ba575b",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "e3b1460f"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "c43cf1e6",
-    "fitness": 0.3749,
-    "parent_ids": [
-      "a93a965d"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "e3b1460f",
-    "fitness": 0.0,
-    "parent_ids": [
-      "71eedda7",
-      "1a40276b"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "393692e3",
-    "fitness": 0.0,
-    "parent_ids": [
-      "e3b1460f",
-      "71eedda7"
-    ]
-  },
-  {
-    "generation": 3,
-    "agent_id": "eba55d63",
-    "fitness": 0.0,
-    "parent_ids": [
-      "e3b1460f"
+      "797a0fbc",
+      "b44757ce"
     ]
   }
 ]

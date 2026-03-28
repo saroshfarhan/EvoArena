@@ -21,9 +21,12 @@ from pathlib import Path
 
 from daytona_sdk import AsyncDaytona
 
+import anthropic
+
 from evaluator import compute_fitness
 from genome import Genome, evolve_population, initialize_population
 from orchestrator import run_generation
+from sandbox_worker import NegotiationEnv, genome_to_system_prompt, run_task
 
 # ── Config ────────────────────────────────────────────────────────────────────
 POPULATION_SIZE = 12
@@ -225,6 +228,37 @@ async def main() -> None:
         print(f"\n  Best genome: {best_g.agent_id}  fitness={best_f:.4f}  gen={best_g.generation}")
         print_genome_profile(best_g)
 
+    # ── Generalization holdout test ────────────────────────────────────────────
+    holdout_result: dict = {}
+    if overall_best:
+        banner("GENERALIZATION TEST — Negotiation (never seen during evolution)")
+        best_g, _, _ = overall_best
+        api_key = os.getenv("ANTHROPIC_API_KEY", "")
+        try:
+            client = anthropic.Anthropic(api_key=api_key)
+            system_prompt = genome_to_system_prompt(best_g.to_dict())
+            budget = NegotiationEnv.ROUNDS + 3
+            env = NegotiationEnv()
+            result = run_task(client, system_prompt, env, budget, "negotiation")
+            holdout_result = {
+                "agent_id": best_g.agent_id,
+                "genome": best_g.to_dict(),
+                "negotiation": result,
+            }
+            score = result["accuracy"]
+            baseline = 0.5
+            beat = score > baseline
+            print(f"  Agent     : {best_g.agent_id}")
+            print(f"  Score     : {score:.4f}  (random baseline ≈ {baseline:.2f})")
+            print(f"  Earned    : {result.get('total_earned', '?')}/{result.get('max_score', 30)}")
+            print(f"  Tools used: {' → '.join(result.get('tool_calls', []))}")
+            print(f"  Beat baseline? {'YES — generalised!' if beat else 'NO — did not generalise'}")
+        except Exception as e:
+            print(f"  Holdout failed: {e}")
+            holdout_result = {"error": str(e)}
+
+        (RESULTS_DIR / "holdout_result.json").write_text(json.dumps(holdout_result, indent=2))
+
     # Save artefacts
     final = {
         "run_at": datetime.now().isoformat(),
@@ -246,6 +280,7 @@ async def main() -> None:
 
     print(f"\n  Saved to {RESULTS_DIR}/")
     for fname in ("final_results.json", "best_agent.json", "lineage.json",
+                  "holdout_result.json",
                   *(f"generation_{g}.json" for g in range(1, GENERATIONS + 1))):
         print(f"    • {fname}")
 

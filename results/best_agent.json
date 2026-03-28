@@ -1,13 +1,15 @@
 {
-  "agent_id": "4d6d65f2",
-  "planning_depth": 3.797,
-  "reasoning_steps": 7,
-  "cooperation_bias": 0.5146,
-  "exploration_rate": 0.2245,
-  "verification_level": 0.9124,
-  "risk_bias": 0.6278,
-  "tool_usage_bias": 0.928,
-  "generation": 1,
-  "fitness": 0.3749,
-  "parent_ids": []
+  "agent_id": "732478f5",
+  "planning_depth": 1.977,
+  "reasoning_steps": 6,
+  "cooperation_bias": 0.406,
+  "exploration_rate": 0.3311,
+  "verification_level": 0.7814,
+  "risk_bias": 0.9896,
+  "tool_usage_bias": 0.4559,
+  "generation": 3,
+  "fitness": 0.3129,
+  "parent_ids": [
+    "ecccc739"
+  ]
 }

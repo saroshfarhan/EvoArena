@@ -394,6 +394,110 @@ You have {budget} tool calls. Play {self.ROUNDS} rounds then finish."""
 
 
 # ---------------------------------------------------------------------------
+# Holdout task — NegotiationEnv (never used during evolution)
+# ---------------------------------------------------------------------------
+
+class NegotiationEnv:
+    """
+    Multi-round bargaining vs a Fair Dealer opponent.
+    5 rounds. Agent proposes how much to keep (0-10).
+    Opponent accepts if offer <= 6 (they get >= 4), rejects otherwise.
+    Accepted: agent earns offer amount. Rejected: both earn 4 (forced split).
+    Max score = 5 * 6 = 30.
+
+    Genome sensitivity:
+      cooperation_bias  high → offers <= 6 → accepted → earns 6/round
+      cooperation_bias  low  → offers 7-10 → rejected → earns only 4/round
+      planning_depth    high → reasons about opponent acceptance threshold
+    """
+
+    ROUNDS = 5
+    MAX_KEEP = 10
+    ACCEPT_THRESHOLD = 6   # opponent accepts if agent keeps <= this
+    REJECT_EARN = 4        # both earn this on rejection
+    MAX_SCORE = ROUNDS * ACCEPT_THRESHOLD  # 30
+
+    TOOLS = {
+        "make_offer":     "Propose how much to keep. Input: {\"keep\": <int 0-10>}",
+        "accept_counter": "Accept the opponent's counter-offer of 5/5. Input: {}",
+        "reflect":        "Note your reasoning. Input: {\"note\": \"...\"}",
+        "finish":         "End negotiation. Input: {}",
+    }
+
+    def __init__(self):
+        self.round = 0
+        self.total_earned = 0
+        self._done = False
+
+    def get_initial_message(self, budget: int) -> str:
+        tool_desc = "\n".join(f"  {k}: {v}" for k, v in self.TOOLS.items())
+        return f"""Task: Multi-round Negotiation — {self.ROUNDS} rounds.
+
+Each round you split a resource worth 10 with an opponent.
+Use make_offer to propose how much YOU keep (0–10).
+
+Opponent behaviour:
+  If you keep <= 6: opponent ACCEPTS → you earn that amount this round.
+  If you keep >= 7: opponent REJECTS → forced fair split, both earn 4.
+
+Goal: maximise your total earnings across all {self.ROUNDS} rounds.
+Maximum possible = {self.MAX_SCORE} (keep 6 and be accepted every round).
+
+Available tools:
+{tool_desc}
+
+You have {budget} tool calls."""
+
+    def execute_tool(self, tool: str, inp: dict) -> str:
+        if self._done:
+            return "Negotiation already finished."
+
+        if tool == "make_offer":
+            if self.round >= self.ROUNDS:
+                self._done = True
+                return f"All {self.ROUNDS} rounds complete. Call finish."
+            keep = max(0, min(self.MAX_KEEP, int(inp.get("keep", 5))))
+            self.round += 1
+            if keep <= self.ACCEPT_THRESHOLD:
+                self.total_earned += keep
+                result = f"Round {self.round}: You kept {keep} — ACCEPTED. You earn {keep}. Running total: {self.total_earned}."
+            else:
+                self.total_earned += self.REJECT_EARN
+                result = (f"Round {self.round}: You kept {keep} — REJECTED (opponent needs >= 4). "
+                          f"Forced split: both earn {self.REJECT_EARN}. Running total: {self.total_earned}.")
+            if self.round >= self.ROUNDS:
+                result += f" All rounds done. Call finish."
+            return result
+
+        if tool == "accept_counter":
+            if self.round >= self.ROUNDS:
+                self._done = True
+                return f"All rounds complete. Call finish."
+            self.round += 1
+            self.total_earned += 5
+            return f"Round {self.round}: Accepted counter 5/5. You earn 5. Running total: {self.total_earned}."
+
+        if tool == "reflect":
+            return f"Noted: {inp.get('note', '')}. Round {self.round}/{self.ROUNDS} complete."
+
+        if tool == "finish":
+            self._done = True
+            return f"Negotiation ended. Total earned: {self.total_earned}/{self.MAX_SCORE}. Score: {self.score():.1%}"
+
+        return f"Unknown tool '{tool}'. Choose from: {list(self.TOOLS)}"
+
+    def score(self) -> float:
+        return min(1.0, self.total_earned / self.MAX_SCORE)
+
+    def extra_stats(self) -> dict:
+        return {
+            "total_earned": self.total_earned,
+            "max_score": self.MAX_SCORE,
+            "rounds_played": self.round,
+        }
+
+
+# ---------------------------------------------------------------------------
 # Agent loop
 # ---------------------------------------------------------------------------
 

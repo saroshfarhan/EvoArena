@@ -741,3 +741,38 @@ with tab_best:
         for title, body in insights:
             with st.expander(title, expanded=True):
                 st.write(body)
+
+        # ── Generalization holdout test ────────────────────────────────────────
+        st.divider()
+        st.subheader("Generalization Test — Negotiation (Holdout Task)")
+        st.caption("This task was never seen during evolution. It tests whether the best genome generalised beyond its training tasks.")
+
+        holdout_path = Path("results") / "holdout_result.json"
+        if holdout_path.exists():
+            holdout = json.loads(holdout_path.read_text())
+            if "error" in holdout:
+                st.error(f"Holdout run failed: {holdout['error']}")
+            else:
+                neg = holdout.get("negotiation", {})
+                score = neg.get("accuracy", 0)
+                earned = neg.get("total_earned", 0)
+                max_score = neg.get("max_score", 30)
+                tools = neg.get("tool_calls", [])
+                baseline = 0.5
+
+                col1, col2, col3 = st.columns(3)
+                col1.metric("Negotiation Score", f"{score:.3f}", delta=f"{score - baseline:+.3f} vs baseline")
+                col2.metric("Points Earned", f"{earned} / {max_score}")
+                col3.metric("Generalised?", "YES" if score > baseline else "NO",
+                            delta="Beat random baseline" if score > baseline else "Below baseline",
+                            delta_color="normal" if score > baseline else "inverse")
+
+                if tools:
+                    st.markdown("**Tool call sequence:**  `" + "` → `".join(tools) + "`")
+
+                if score > baseline:
+                    st.success(f"The best genome scored {score:.1%} on the negotiation task — above the {baseline:.0%} random baseline. Evolution found a strategy that generalises.")
+                else:
+                    st.warning(f"The best genome scored {score:.1%} — below the {baseline:.0%} baseline. The genome may have overfit to the training tasks.")
+        else:
+            st.info("No holdout result yet. Run `uv run main.py` to generate it.")

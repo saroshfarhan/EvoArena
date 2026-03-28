@@ -93,7 +93,7 @@ class Genome:
             return max(lo, min(hi, v))
 
         if rng.random() < rate:
-            pd = clamp(pd + rng.gauss(0, 0.6), 1.0, 5.0)
+            pd = clamp(pd + rng.gauss(0, 0.3), 1.0, 5.0)
         if rng.random() < rate:
             rs = clamp(rs + rng.choice([-1, 0, 1]), 2, 7)
         if rng.random() < rate:
@@ -140,7 +140,7 @@ def crossover(a: Genome, b: Genome) -> Genome:
 
 def evolve_population(population: list[Genome], pop_size: int = 12) -> list[Genome]:
     ranked = sorted(population, key=lambda g: g.fitness, reverse=True)
-    n_elite = max(2, round(len(ranked) * 0.30))
+    n_elite = max(2, round(len(ranked) * 0.50))
     elites = ranked[:n_elite]
 
     next_gen: list[Genome] = []

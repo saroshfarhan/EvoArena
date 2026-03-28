@@ -1,8 +1,8 @@
 """
 Fitness computation for EvoArena LLM agents.
 
-fitness = 0.40 * task_accuracy
-        + 0.20 * efficiency
+fitness = 0.50 * task_accuracy
+        + 0.10 * efficiency
         + 0.20 * robustness
         + 0.20 * strategic_score
 
@@ -69,8 +69,8 @@ def compute_fitness(tasks: dict) -> dict:
     strategic_score = min(1.0, coop_rate * 0.7 + verify_bonus)
 
     fitness = (
-        0.40 * mean_acc
-        + 0.20 * mean_eff
+        0.50 * mean_acc
+        + 0.10 * mean_eff
         + 0.20 * robustness
         + 0.20 * strategic_score
     )
