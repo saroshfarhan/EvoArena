@@ -30,6 +30,79 @@ Think of it as **natural selection for AI agents**: instead of DNA, agents inher
 
 ---
 
+## How the Tweaking Actually Works
+
+This is the part that makes EvoArena more than a typical evolutionary algorithm — the genome numbers don't directly control logic. They control **what Claude is told to do**, and Claude is an LLM making real decisions. Here is exactly what happens at each stage.
+
+### Stage 1 — Numbers become words (genome → system prompt)
+
+The raw numbers are thresholded into plain English instructions that get injected into Claude's system prompt before each task. Claude never sees the number `4.2` — it sees the sentence it maps to:
+
+```
+planning_depth = 4.2  →  "DEEP PLANNER: Think through every step before acting.
+                           Map the full solution before your first tool call."
+
+planning_depth = 1.3  →  "FAST ACTOR: Act immediately.
+                           Skip lengthy planning — first instinct, then go."
+
+cooperation_bias = 0.9  →  "COOPERATIVE: In multi-agent or game scenarios,
+                             prefer cooperation and mutual benefit."
+
+cooperation_bias = 0.1  →  "COMPETITIVE: Prioritise your own score."
+
+verification_level = 0.8  →  "HIGH VERIFICATION: Always verify your work with a
+                               test/evaluate tool before finishing. Double-check."
+```
+
+The `reasoning_steps` trait works differently — it is a **hard cap** on how many tool calls Claude is allowed per task. An agent with `reasoning_steps=3` gets cut off after 3 moves regardless of what it wants to do.
+
+### Stage 2 — Claude plays the tasks
+
+Claude receives the system prompt + task description and decides which tool to call on every turn. The behavioral differences are real and observable:
+
+- A high `cooperation_bias` agent cooperates every round in the Prisoner's Dilemma, scoring 3 pts/round vs Tit-for-Tat
+- A high `verification_level` agent calls `run_tests` before `finish` in the coding task, catching bugs
+- A low `planning_depth` agent jumps straight to proposing a knapsack solution without reasoning about item ratios, often missing the optimum
+
+### Stage 3 — Scores drive evolution (fitness → selection → genetic operators)
+
+After all tasks complete, a fitness score is computed from the results:
+
+```
+fitness = 0.40 × mean_accuracy      ← did it solve the problems correctly?
+        + 0.20 × mean_efficiency    ← did it do it in few steps?
+        + 0.20 × robustness         ← was it consistent across all 3 tasks?
+        + 0.20 × strategic_score    ← did it cooperate? did it verify its code?
+```
+
+Then three genetic operators physically change the numbers for the next generation:
+
+**Selection** — only the top 30% of agents survive to reproduce. Agents with poor fitness are discarded entirely. Their numbers never appear in the next generation.
+
+**Crossover** — two surviving parents produce a child by randomly inheriting each trait from one parent:
+```
+parent A:  cooperation_bias=0.9,  planning_depth=4.2,  exploration_rate=0.2
+parent B:  cooperation_bias=0.3,  planning_depth=2.1,  exploration_rate=0.7
+child:     cooperation_bias=0.9,  planning_depth=2.1,  exploration_rate=0.2
+                              ↑ from A              ↑ from B             ↑ from A
+```
+
+**Mutation** — each trait has a 40% chance of a small random Gaussian nudge (±0.15 on average for 0–1 traits):
+```
+cooperation_bias = 0.85  →  0.85 + gauss(0, 0.15)  →  0.91  (small drift up)
+cooperation_bias = 0.85  →  0.85 + gauss(0, 0.15)  →  0.72  (small drift down)
+```
+
+This introduces variation so the population doesn't get stuck — children can explore slightly different instructions than their parents.
+
+### The feedback loop in one sentence
+
+> Numbers shape what Claude is told → Claude's decisions produce scores → scores select which numbers survive → surviving numbers are recombined and nudged → the process repeats
+
+Evolution never touches Claude's model weights. It only changes the **instructions Claude receives**. Selection pressure pushes those instructions toward whatever combination makes Claude perform best across all three tasks.
+
+---
+
 ## How it works
 
 ### 1. The Genome
